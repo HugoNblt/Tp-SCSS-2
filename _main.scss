@@ -1,0 +1,23 @@
+.valeurs{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about{
+    padding: 15px;
+}
+.comp{
+    width: 260px;
+    h4{
+        margin: 0;
+    }
+    display: flex;
+    gap: 10px;
+    img{
+        max-height: 48px;
+        min-width: 48px;
+    }
+}
