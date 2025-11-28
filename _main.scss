@@ -5,19 +5,152 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    div{
+        h3{
+            font-family: Helvetica, sans-serif;
+            color: $soustitres;
+        }
+        p{
+           font-family: Helvetica, sans-serif; 
+           color: $text_color;
+        }
+    }
 }
 .about{
+    background-color: $second_background;
     padding: 15px;
+    .me{
+        aspect-ratio: initial;
+        width: 100%;
+    }
+}
+.competences{
+    margin: 15px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .comp{
     width: 260px;
     h4{
         margin: 0;
+        font-family: Helvetica, sans-serif;
+            color: $soustitres;
+    }
+    p{
+        color: $text_color;
     }
     display: flex;
     gap: 10px;
     img{
         max-height: 48px;
-        min-width: 48px;
+        min-width: initial;
+    }
+}
+.presentation{
+    h3{
+            font-family: Helvetica, sans-serif;
+            color: $soustitres;
+        }
+        p{
+           font-family: Helvetica, sans-serif; 
+           color: $text_color;
+        }
+}
+.skills{
+    padding: 15px;
+    .skills_txt {
+        display: flex;
+        flex-direction: column;
+        h3{
+            font-family: Helvetica, sans-serif;
+            color: $soustitres;
+        }
+        p{
+            font-family: Helvetica, sans-serif; 
+           color: $text_color;
+           margin: 10px;
+        }
+        a{
+            width: fit-content;
+            text-decoration: none;
+            color: $accent_color;
+            font-family: 'Arial Black', sans-serif;
+            border: 2px solid $accent_color;
+            padding: 10px;
+            margin: auto;
+        }
+    }
+}
+
+.bars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    h4{
+        margin: 8px;
+    }
+}
+.photoshop, .illustrator, .htmlcss, .phpmysql{
+    margin: 10px;
+    width: fit-content;
+    font-family: Helvetica, sans-serif;
+    color: $soustitres;
+}
+.progress_bar{
+    width: 300px;
+    height: 25px;
+    background-color: $second_background;
+    p{
+        margin: 0;
+    }
+}
+.photoshop_progress{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    height: 25px;
+    background-color: $accent_color;
+    p{
+        margin-right: 5px;
+    }
+}
+.illustrator_progress{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    height: 25px;
+    background-color: $accent_color;
+    p{
+        margin-right: 5px;
+    }
+}
+.htmlcss_progress{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    height: 25px;
+    background-color: $accent_color;
+    p{
+        margin-right: 5px;
+    }
+}
+.phpmysql_progress{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    height: 25px;
+    background-color: $accent_color;
+    p{
+        margin-right: 5px;
     }
 }

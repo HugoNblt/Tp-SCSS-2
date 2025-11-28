@@ -1,5 +1,12 @@
+$soustitres: rgb(65, 65, 65);
+$second_background: #f2f2f1;
+$text_color: #aeaeae;
+$accent_color: #2ecc71;
+
 @import '_header.scss';
 @import '_main.scss';
+
+
 body, html{
     margin: 0;
     padding: 0;

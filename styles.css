@@ -69,9 +69,32 @@ nav ul li a:hover {
   align-items: center;
   flex-direction: column;
 }
+.valeurs div h3 {
+  font-family: Helvetica, sans-serif;
+  color: rgb(65, 65, 65);
+}
+.valeurs div p {
+  font-family: Helvetica, sans-serif;
+  color: #aeaeae;
+}
 
 .about {
+  background-color: #f2f2f1;
   padding: 15px;
+}
+.about .me {
+  aspect-ratio: initial;
+  width: 100%;
+}
+
+.competences {
+  margin: 15px;
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .comp {
@@ -79,6 +102,11 @@ nav ul li a:hover {
 }
 .comp h4 {
   margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: rgb(65, 65, 65);
+}
+.comp p {
+  color: #aeaeae;
 }
 .comp {
   display: flex;
@@ -86,7 +114,117 @@ nav ul li a:hover {
 }
 .comp img {
   max-height: 48px;
-  min-width: 48px;
+  min-width: initial;
+}
+
+.presentation h3 {
+  font-family: Helvetica, sans-serif;
+  color: rgb(65, 65, 65);
+}
+.presentation p {
+  font-family: Helvetica, sans-serif;
+  color: #aeaeae;
+}
+
+.skills {
+  padding: 15px;
+}
+.skills .skills_txt {
+  display: flex;
+  flex-direction: column;
+}
+.skills .skills_txt h3 {
+  font-family: Helvetica, sans-serif;
+  color: rgb(65, 65, 65);
+}
+.skills .skills_txt p {
+  font-family: Helvetica, sans-serif;
+  color: #aeaeae;
+  margin: 10px;
+}
+.skills .skills_txt a {
+  width: fit-content;
+  text-decoration: none;
+  color: #2ecc71;
+  font-family: "Arial Black", sans-serif;
+  border: 2px solid #2ecc71;
+  padding: 10px;
+  margin: auto;
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.bars h4 {
+  margin: 8px;
+}
+
+.photoshop, .illustrator, .htmlcss, .phpmysql {
+  margin: 10px;
+  width: fit-content;
+  font-family: Helvetica, sans-serif;
+  color: rgb(65, 65, 65);
+}
+
+.progress_bar {
+  width: 300px;
+  height: 25px;
+  background-color: #f2f2f1;
+}
+.progress_bar p {
+  margin: 0;
+}
+
+.photoshop_progress {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  height: 25px;
+  background-color: #2ecc71;
+}
+.photoshop_progress p {
+  margin-right: 5px;
+}
+
+.illustrator_progress {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  height: 25px;
+  background-color: #2ecc71;
+}
+.illustrator_progress p {
+  margin-right: 5px;
+}
+
+.htmlcss_progress {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  height: 25px;
+  background-color: #2ecc71;
+}
+.htmlcss_progress p {
+  margin-right: 5px;
+}
+
+.phpmysql_progress {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  height: 25px;
+  background-color: #2ecc71;
+}
+.phpmysql_progress p {
+  margin-right: 5px;
 }
 
 body, html {
