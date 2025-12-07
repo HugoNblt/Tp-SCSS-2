@@ -227,6 +227,32 @@ nav ul li a:hover {
   margin-right: 5px;
 }
 
+.resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f1;
+}
+.resume h3 {
+  font-family: Helvetica, sans-serif;
+  color: rgb(65, 65, 65);
+}
+.resume p {
+  color: #aeaeae;
+  padding: 15px;
+  text-align: center;
+}
+.resume a {
+  width: fit-content;
+  text-decoration: none;
+  color: #2ecc71;
+  font-family: "Arial Black", sans-serif;
+  border: 2px solid #2ecc71;
+  padding: 10px;
+  margin: auto;
+}
+
 body, html {
   margin: 0;
   padding: 0;

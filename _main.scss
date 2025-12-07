@@ -154,3 +154,28 @@
         margin-right: 5px;
     }
 }
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $second_background;
+    h3{
+            font-family: Helvetica, sans-serif;
+            color: $soustitres;
+        }
+        p{
+            color: $text_color;
+            padding: 15px;
+            text-align: center;
+        }
+        a{
+            width: fit-content;
+            text-decoration: none;
+            color: $accent_color;
+            font-family: 'Arial Black', sans-serif;
+            border: 2px solid $accent_color;
+            padding: 10px;
+            margin: auto;
+        }
+}
