@@ -228,6 +228,7 @@ nav ul li a:hover {
 }
 
 .resume {
+  padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
