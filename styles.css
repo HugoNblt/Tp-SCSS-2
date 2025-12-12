@@ -61,6 +61,15 @@ nav ul li a:hover {
   color: #2ecc71;
 }
 
+@media (min-width: 768px) {
+  .header_elements h1 {
+    font-size: 48px;
+  }
+  .learn_more {
+    width: 250px;
+    font-size: 32px;
+  }
+}
 .valeurs {
   padding: 15px;
   display: flex;
@@ -254,6 +263,235 @@ nav ul li a:hover {
   margin: auto;
 }
 
+hr {
+  width: 70%;
+}
+
+.education {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.education h3 {
+  font-family: Helvetica, sans-serif;
+  color: rgb(65, 65, 65);
+}
+.education p {
+  color: #aeaeae;
+  text-align: justify;
+  font-family: Helvetica, sans-serif;
+}
+
+.diplomes .diplome h4 {
+  font-family: Helvetica, sans-serif;
+  color: rgb(65, 65, 65);
+  margin: 0;
+}
+.diplomes .diplome {
+  padding: 15px;
+}
+.diplomes .diplome .gpa {
+  width: fit-content;
+  padding: 5px 10px;
+  color: white;
+  background-color: #2ecc71;
+}
+.diplomes .diplome p {
+  color: #aeaeae;
+  font-family: Helvetica, sans-serif;
+}
+
+.quote {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f1;
+}
+.quote .quoted_text {
+  font-family: Helvetica, sans-serif;
+  color: #aeaeae;
+  font-style: italic;
+  text-align: center;
+}
+.quote .author {
+  margin-top: 10px;
+  font-family: Helvetica, sans-serif;
+  color: rgb(65, 65, 65);
+  font-weight: bold;
+}
+
+.portfolio {
+  padding: 15px;
+}
+.portfolio h3 {
+  font-family: Helvetica, sans-serif;
+  color: rgb(65, 65, 65);
+  text-align: center;
+}
+.portfolio p {
+  font-family: Helvetica, sans-serif;
+  color: #aeaeae;
+  margin-bottom: 15px;
+}
+
+.img_grid {
+  display: grid;
+  grid-template-columns: 1;
+  gap: 15px;
+}
+.img_grid > div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img_grid > div:hover .loupe {
+  display: block;
+}
+.img_grid > div .loupe {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #252E30;
+  padding: 15px;
+  text-align: center;
+}
+footer p {
+  font-family: Helvetica, sans-serif;
+  color: #aeaeae;
+  margin: 0;
+}
+footer h3 {
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+footer .contactform {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+footer .contactform form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+footer .contactform form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+}
+footer .contactform form div label {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  margin-bottom: 4px;
+}
+footer .contactform form div input, footer .contactform form div textarea {
+  background-color: #424b4e;
+  padding: 8px;
+  border: none;
+  width: 250px;
+  color: white;
+}
+footer .contactform button {
+  width: fit-content;
+  text-decoration: none;
+  color: white;
+  background-color: #424b4e;
+  font-family: "Arial Black", sans-serif;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .valeurs {
+    flex-direction: row;
+  }
+  .about {
+    display: flex;
+    flex-direction: row;
+  }
+  .about img {
+    aspect-ratio: initial;
+    max-width: 305px;
+  }
+  .about div {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .presentation {
+    margin: 15px;
+  }
+  .about .competences {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .about .competences .comp {
+    width: fit-content;
+  }
+  .about .competences .comp img {
+    width: 48px;
+  }
+  .skills {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  footer p, footer h3 {
+    text-align: left;
+  }
+  footer .contactme {
+    width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .education {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  .education_txt {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .skills {
+    display: flex;
+    justify-content: space-around;
+  }
+  .skills .skills_txt {
+    max-width: 50%;
+  }
+  .img_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (min-width: 1100px) {
+  .img_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 body, html {
   margin: 0;
   padding: 0;
